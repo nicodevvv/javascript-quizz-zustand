@@ -1,0 +1,518 @@
+[
+  {
+    "id": 1,
+    "question": "What is the output of 'typeof NaN' in JavaScript?",
+    "code": "console.log(typeof NaN);",
+    "answers": [
+      "'number'",
+      "'NaN'",
+      "'undefined'",
+      "'object'"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "question": "Which method is used to add an element at the end of an array in JavaScript?",
+    "code": "let arr = [1, 2, 3];\narr.____(4);",
+    "answers": [
+      "push",
+      "pop",
+      "shift",
+      "unshift"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "question": "What will be the output of the following code?",
+    "code": "console.log(0.1 + 0.2 === 0.3);",
+    "answers": [
+      "true",
+      "false",
+      "undefined",
+      "TypeError"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 4,
+    "question": "What is the result of '[] + []' in JavaScript?",
+    "code": "console.log([] + []);",
+    "answers": [
+      "''",
+      "'[][]'",
+      "undefined",
+      "NaN"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 5,
+    "question": "Which keyword is used to declare a block-scoped variable?",
+    "code": "const x = 10;",
+    "answers": [
+      "var",
+      "let",
+      "const",
+      "Both let and const"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "id": 6,
+    "question": "What does the 'this' keyword refer to in a regular function?",
+    "code": "function test() { console.log(this); }",
+    "answers": [
+      "The global object",
+      "undefined",
+      "null",
+      "The function itself"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 7,
+    "question": "What is the output of the following code?",
+    "code": "console.log(1 + '2' + 3);",
+    "answers": [
+      "'123'",
+      "6",
+      "'33'",
+      "NaN"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 8,
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "code": "const obj = JSON.____(jsonString);",
+    "answers": [
+      "parse",
+      "stringify",
+      "convert",
+      "decode"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 9,
+    "question": "What will this code output?",
+    "code": "console.log(typeof null);",
+    "answers": [
+      "'null'",
+      "'undefined'",
+      "'object'",
+      "'number'"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 10,
+    "question": "What is the purpose of the 'use strict' directive?",
+    "code": "'use strict';",
+    "answers": [
+      "Enables strict mode",
+      "Disables warnings",
+      "Improves performance",
+      "Enables ES6 features"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 11,
+    "question": "What does the Array.map() method return?",
+    "code": "const result = [1, 2, 3].map(x => x * 2);",
+    "answers": [
+      "A new array",
+      "The same array modified",
+      "undefined",
+      "A number"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 12,
+    "question": "What is the output?",
+    "code": "console.log(!!'false');",
+    "answers": [
+      "true",
+      "false",
+      "undefined",
+      "NaN"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 13,
+    "question": "Which operator is used for strict equality comparison?",
+    "code": "if (a ____ b) { }",
+    "answers": [
+      "==",
+      "===",
+      "!=",
+      "!=="
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 14,
+    "question": "What is a closure in JavaScript?",
+    "code": "function outer() { let x = 1; return function() { return x; } }",
+    "answers": [
+      "A function with access to outer scope",
+      "A closed function",
+      "An IIFE",
+      "A callback function"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 15,
+    "question": "What will be logged?",
+    "code": "console.log([1, 2, 3].length);",
+    "answers": [
+      "2",
+      "3",
+      "undefined",
+      "4"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 16,
+    "question": "What does the spread operator (...) do?",
+    "code": "const arr = [...[1, 2, 3]];",
+    "answers": [
+      "Spreads array elements",
+      "Concatenates strings",
+      "Creates a range",
+      "Removes duplicates"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 17,
+    "question": "What is the result?",
+    "code": "console.log(3 > 2 > 1);",
+    "answers": [
+      "true",
+      "false",
+      "undefined",
+      "TypeError"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 18,
+    "question": "Which method removes the last element from an array?",
+    "code": "let arr = [1, 2, 3];\narr.____();",
+    "answers": [
+      "pop",
+      "push",
+      "shift",
+      "splice"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 19,
+    "question": "What is the output?",
+    "code": "console.log(parseInt('123abc'));",
+    "answers": [
+      "123",
+      "NaN",
+      "'123abc'",
+      "undefined"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 20,
+    "question": "What does Promise.all() return?",
+    "code": "Promise.all([promise1, promise2]);",
+    "answers": [
+      "A single Promise",
+      "An array of values",
+      "undefined",
+      "The first resolved Promise"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 21,
+    "question": "What will this output?",
+    "code": "console.log([] == ![]);",
+    "answers": [
+      "true",
+      "false",
+      "undefined",
+      "TypeError"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 22,
+    "question": "Which method creates a new array with elements that pass a test?",
+    "code": "const result = arr.____(x => x > 5);",
+    "answers": [
+      "map",
+      "filter",
+      "reduce",
+      "find"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 23,
+    "question": "What is the output?",
+    "code": "console.log('5' - 3);",
+    "answers": [
+      "2",
+      "'53'",
+      "NaN",
+      "'2'"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 24,
+    "question": "What does async/await do?",
+    "code": "async function test() { await promise; }",
+    "answers": [
+      "Handles asynchronous code synchronously",
+      "Creates a new thread",
+      "Delays execution",
+      "Cancels promises"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 25,
+    "question": "What is the output?",
+    "code": "console.log(undefined == null);",
+    "answers": [
+      "true",
+      "false",
+      "undefined",
+      "null"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 26,
+    "question": "Which method converts an object to a JSON string?",
+    "code": "const str = JSON.____(obj);",
+    "answers": [
+      "stringify",
+      "parse",
+      "toString",
+      "encode"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 27,
+    "question": "What will be logged?",
+    "code": "console.log(2 ** 3);",
+    "answers": [
+      "6",
+      "8",
+      "9",
+      "5"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 28,
+    "question": "What does Object.keys() return?",
+    "code": "const keys = Object.keys({a: 1, b: 2});",
+    "answers": [
+      "An array of keys",
+      "An array of values",
+      "An object",
+      "undefined"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 29,
+    "question": "What is the output?",
+    "code": "console.log(!0);",
+    "answers": [
+      "true",
+      "false",
+      "0",
+      "1"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 30,
+    "question": "What does Array.reduce() do?",
+    "code": "const sum = [1,2,3].reduce((a,b) => a+b);",
+    "answers": [
+      "Reduces array to single value",
+      "Filters array",
+      "Maps array",
+      "Sorts array"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 31,
+    "question": "What will this output?",
+    "code": "console.log(+'42');",
+    "answers": [
+      "42",
+      "'42'",
+      "NaN",
+      "undefined"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 32,
+    "question": "What is hoisting in JavaScript?",
+    "code": "console.log(x); var x = 5;",
+    "answers": [
+      "Variable/function declarations moved to top",
+      "Code execution order",
+      "Memory optimization",
+      "Error handling"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 33,
+    "question": "What is the output?",
+    "code": "console.log([...'hello']);",
+    "answers": [
+      "['h','e','l','l','o']",
+      "'hello'",
+      "['hello']",
+      "undefined"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 34,
+    "question": "Which method removes the first element from an array?",
+    "code": "let arr = [1, 2, 3];\narr.____();",
+    "answers": [
+      "shift",
+      "unshift",
+      "pop",
+      "push"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 35,
+    "question": "What is the output?",
+    "code": "console.log(Boolean('0'));",
+    "answers": [
+      "true",
+      "false",
+      "0",
+      "undefined"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 36,
+    "question": "What does the arrow function inherit from its parent scope?",
+    "code": "const obj = { fn: () => this };",
+    "answers": [
+      "this binding",
+      "arguments object",
+      "prototype",
+      "constructor"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 37,
+    "question": "What will be logged?",
+    "code": "console.log(Math.max());",
+    "answers": [
+      "0",
+      "-Infinity",
+      "Infinity",
+      "undefined"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 38,
+    "question": "What does Array.find() return?",
+    "code": "const result = [1,2,3].find(x => x > 1);",
+    "answers": [
+      "The first matching element",
+      "All matching elements",
+      "Index of element",
+      "Boolean"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 39,
+    "question": "What is the output?",
+    "code": "console.log(1 < 2 < 3);",
+    "answers": [
+      "true",
+      "false",
+      "undefined",
+      "TypeError"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 40,
+    "question": "What does destructuring do?",
+    "code": "const {a, b} = {a: 1, b: 2};",
+    "answers": [
+      "Extracts values from objects/arrays",
+      "Deletes properties",
+      "Merges objects",
+      "Creates copies"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 41,
+    "question": "What will this output?",
+    "code": "console.log(null === undefined);",
+    "answers": [
+      "true",
+      "false",
+      "null",
+      "undefined"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 42,
+    "question": "Which method adds elements to the beginning of an array?",
+    "code": "let arr = [2, 3];\narr.____(1);",
+    "answers": [
+      "unshift",
+      "shift",
+      "push",
+      "pop"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 43,
+    "question": "What is the output?",
+    "code": "console.log('5' + 3);",
+    "answers": [
+      "'53'",
+      "8",
+      "NaN",
+      "undefined"
+    ],
+    "correctAnswer": 0
+  }
+]
